@@ -1,0 +1,43 @@
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# === Python / Backend ===
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+
+# === Node / Frontend ===
+frontend/node_modules/
+frontend/dist/
+
+# === PlatformIO / Firmware ===
+firmware/.pio/
+
+# === ML artifacts ===
+ml/**/*.pkl
+ml/**/*.h5
+ml/**/*.onnx
+ml/**/*.tflite
+
+# === Logs ===
+logs/*.log
+logs/*.csv
+
+# === Claude / Gemini agent folders ===
+.claude/
+.agents/
+.gemini/
+
+# === Misc ===
+*.env
+.env.*
